@@ -2,6 +2,9 @@
   children:
     BRE3:
       hosts:
-        - BRE3_NIPR_RTR
-        - BRE3_NIPR_SW1
-        - BRE3_NIPR_SW2
+        BRE3_NIPR_RTR:
+          ansible_host: 1.1.1.1
+        BRE3_NIPR_SW1:
+          ansible_host: 2.2.2.2
+        BRE3_NIPR_SW2:
+          ansible_host: 3.3.3.3
