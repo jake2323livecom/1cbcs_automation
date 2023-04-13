@@ -1,0 +1,7 @@
+1cbcs:
+  children:
+    BRE3:
+      hosts:
+        - BRE3_NIPR_RTR
+        - BRE3_NIPR_SW1
+        - BRE3_NIPR_SW2
